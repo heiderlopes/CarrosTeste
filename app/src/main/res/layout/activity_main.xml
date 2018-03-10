@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.logonpf.carros.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPlaca"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btPesquisar"
+        android:text="Pesquisar"/>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#CCC">
+
+        <TextView
+            style="@style/textview"
+            android:text="MARCA"
+            android:id="@+id/tvMarca"/>
+
+        <TextView
+            style="@style/textview"
+            android:text="Modelo"
+            android:id="@+id/tvModelo"/>
+
+        <TextView
+            style="@style/textview"
+            android:text="Ano"
+            android:id="@+id/tvAno"/>
+
+        <TextView
+            style="@style/textview"
+            android:text="Versao"
+            android:id="@+id/tvVersao"/>
+
+        <TextView
+            style="@style/textview"
+            android:text="Preço"
+            android:id="@+id/tvPreço"/>
+
+    </LinearLayout>
+
+</LinearLayout>
